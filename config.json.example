@@ -1,4 +1,5 @@
 {
+  "headless": true,
   "glob_username": "",
   "glob_password": "",
   "glob_street": "",
@@ -9,7 +10,7 @@
   "glob_ad_prefix": "Text to add which comes before the actual ad description.\nLeave free if not needed\n",
   "glob_ad_suffix": "Text to add which comes after the actual ad description.\nLeave free if not needed\n",
   "webdriver_enabled": false,
-  "update_interval": 30, // number of days an ad has to be old in order to be reposted
+  "update_interval": "30", // number of days an ad has to be old in order to be reposted
   "ads": [
     {
       "type": "OFFER",
@@ -37,6 +38,6 @@
           "foto.art_s": "Zubehör",
           "foto.condition_s": "Gebraucht"
       }
-    },
+    }
   ]
 }
